@@ -1,0 +1,17 @@
+This program implements a hidden Markov Model for part-of-speech (POS) tagging, using a modied Brown corpus as training data.
+It takes a sentence as input and returns a possible set of tags for each word in the input sentence. 
+
+The output for two sample input sentences are shown as below:
+
+Sentence 1:
+----------------------------------------------------------------------------------------------------------
+S: The Secretariat is expected to race tomorrow .
+
+Tags: ['NOUN', 'NOUN', 'PREPOSITION', 'VERB', 'VERB', 'NOUN', 'DETERMINER', 'ADJECTIVE']
+
+
+Sentence 2:
+-----------------------------------------------------------------------------------------------------------
+S: People continue to enquire the reason for the race for outer space .
+
+Tags: ['NOUN', 'ADJECTIVE', 'PREPOSITION', 'NOUN', 'DETERMINER', 'PREPOSITION', 'NOUN', 'DETERMINER', 'VERB', 'X', 'VERB', 'NOUN', 'ADJECTIVE']
